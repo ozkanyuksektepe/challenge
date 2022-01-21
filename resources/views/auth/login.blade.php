@@ -96,7 +96,6 @@ DARK MODE
                             <div class="block-header block-header-default">
                                 <h3 class="block-title">Sign In</h3>
                                 <div class="block-options">
-                                    <a class="btn-block-option fs-sm" href="{{route('password.request')}}">Forgot Password?</a>
                                     <a class="btn-block-option" href="{{route('register')}}" data-bs-toggle="tooltip" data-bs-placement="left" title="New Account">
                                         <i class="fa fa-user-plus"></i>
                                     </a>
@@ -120,12 +119,6 @@ DARK MODE
                                             </div>
                                             <div class="mb-4">
                                                 <input class="form-control form-control-alt form-control-lg" type="password"  name="password" placeholder="Password">
-                                            </div>
-                                            <div class="mb-4">
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" name="remember">
-                                                    <label class="form-check-label" type="remember" for="remember">Remember Me</label>
-                                                </div>
                                             </div>
                                         </div>
                                         <div class="row mb-4">

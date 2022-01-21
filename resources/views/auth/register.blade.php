@@ -96,7 +96,6 @@ DARK MODE
                             <div class="block-header block-header-default">
                                 <h3 class="block-title">Create Account</h3>
                                 <div class="block-options">
-                                    <a class="btn-block-option fs-sm" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#one-signup-terms">View Terms</a>
                                     <a class="btn-block-option" href="{{route('login')}}" data-bs-toggle="tooltip" data-bs-placement="left" title="Sign In">
                                         <i class="fa fa-sign-in-alt"></i>
                                     </a>
@@ -130,7 +129,7 @@ DARK MODE
                                         </div>
                                         <div class="row mb-4">
                                             <div class="col-md-6 col-xl-5">
-                                                <button type="submit" href="{{route('admin.index')}}" class="btn w-100 btn-alt-success">
+                                                <button type="submit" href="{{route('register')}}" class="btn w-100 btn-alt-success">
                                                     <i class="fa fa-fw fa-plus me-1 opacity-50"></i> Sign Up
                                                 </button>
                                             </div>
